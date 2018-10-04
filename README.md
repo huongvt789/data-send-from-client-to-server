@@ -9,9 +9,9 @@ Lưu ý: vị trí bắt đầu tính từ 1.
 Ví dụ:
 client gửi lên server dãy số: -2 11 -4 13 -5 2
 server trả về Tổng: 20, Vị trí bắt đầu: 2, Vị trí kết thúc: 4
-#Cách 1: Run demo.
-# B1: git clone https://github.com/huongvt789/data-send-from-client-to-server.git
-# B2: Run trên trình biên dịch Eclipe.
+# Cách 1: Run demo.
+B1: git clone https://github.com/huongvt789/data-send-from-client-to-server.git
+B2: Run trên trình biên dịch Eclipe.
 1. File AppServer.java 
 2. File AppClient.java (Nhap day so va xem ket qua)
 
