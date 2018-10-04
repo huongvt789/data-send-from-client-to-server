@@ -1,4 +1,4 @@
-package component;
+package SourceComponent;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -46,9 +46,6 @@ public class Server extends AbstractChatComponent {
             if (key.channel() instanceof ServerSocketChannel) {
                 continue;
             }
-            if (key.equals(sender)) {
-                continue;
-            }
             String msg = new String(data).replace(MESSAGE_DELIMITER, "");
             msg = process(msg);
             key.attach(ByteBuffer.wrap(msg.getBytes()));
@@ -64,7 +61,7 @@ public class Server extends AbstractChatComponent {
                 f[i] = Integer.parseInt(arr[i]);
             }
         } catch (Exception e) {
-            return "Chuá»—i khÃ´ng há»�p lá»‡.";
+            return "Sai dinh dang";
         }
 
         int start = 0, end = 0;

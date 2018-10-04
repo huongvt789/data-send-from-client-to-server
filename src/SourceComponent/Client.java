@@ -1,4 +1,4 @@
-package component;
+package SourceComponent;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

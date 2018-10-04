@@ -1,6 +1,7 @@
-package test;
-import component.Server;
+package testSystem;
 import java.io.IOException;
+
+import SourceComponent.Server;
 public class AppServer {
     public static void main(String[] args) {
         try {
